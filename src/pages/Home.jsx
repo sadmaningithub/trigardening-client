@@ -1,11 +1,15 @@
 import Banner from "../components/Banner";
+import Category from "../components/Category";
 import Navbar from "../components/Navbar";
 
 
 const Home = () => {
     return (
-        <div className="mb-40">
+        <div className="">
             <Banner />
+            <div className="max-w-7xl mx-auto">
+                <Category />
+            </div>
         </div>
     );
 };
